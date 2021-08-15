@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<title>Learn About Naim</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+*{
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Times New Roman', Times, serif;
+  margin: 0;
+ 
+}
+
+P{font-family:'Times New Roman', Times, serif ;}
+
+
+
+/* Style the header */
+.header {
+  padding: 20px;
+  text-align: center;
+  background: #f78706;
+  color: white;
+}
+
+/* Increase the font size of the h1 element */
+.header h1 {
+  font-size: 15px;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: rgb(0, 0, 0);
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Column container */
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  width: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* Main column */
+.main {   
+  width: 70%;
+  background-color: white;
+  padding: 20px;
+  
+}
+
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  width: 100%;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+  .side{
+    width: 100%;
+  background-color: #f1f1f1;
+  padding: 20px;
+  }
+  .main {   
+    width: 100%;
+    background-color: white;
+    padding: 20px;
+    
+  }
+ 
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width:100%;
+  }
+  .side{
+    width: 100%;
+  background-color: #f1f1f1;
+  padding: 20px;
+  }
+  .main {   
+    width: 100%;
+    background-color: white;
+    padding: 20px;
+    
+  }
+  
+}
+
+.button1 {background-color: #4CAF50; color : white; padding: 40px 100px;} /* Green */
+.button2 {background-color: #008CBA; color: white; padding: 40px 100px;} /* Blue */
+.button3 {background-color: #f44336; color: white;  padding: 40px 100px;} /* Red */
+.button4 {background-color: #e7e7e7; color: black; padding: 40px 100px;} /* Gray */
+.button5 {background-color: #555555; color: white; padding: 40px 100px;} /* Black */
+</style>
+</head>
+<body>
+
+<script>
+function myFunction(){
+  alert("You have clicked Green")
+}
+function myFunction2(){
+  alert("You have clicked Blue")
+}
+function myFunction3(){
+  alert("You have clicked Red")
+}
+function myFunction4(){
+  alert("You have clicked Gray")
+}
+function myFunction5(){
+  alert("You have clicked Black")
+}
+
+</script>
+
+
+<div class="header">
+  <h1>Learn About Naim</h1>
+  <p>A website created by Muhammad Naim Bin Razman.</p>
+</div>
+
+<div class="navbar">
+  <a href="index.html" class="center">About me</a>
+  <a href="index3.html" class="center">Education</a>
+  <a href="index2.html" class="center">Skills</a>
+  <a href="index4.html" class="center">Contact</a>
+</div>
+
+<div class="row">
+  <div class="side">
+    <h2>About Me</h2>
+    <h5>Photo of me:</h5>
+    <img src="myPhoto.jpg" alt="myPhoto" style="padding:20px; width:450px; height:400px;">
+    <p>I was born in 16th January 2001 at Hospital Naluri and i lived at Taman Melawati for 7 years.I lived in Sungai Buloh for 12 years and counting until i move out of my parents house.I have 4 siblings where i am the 3rd child out of 5 children.I am a goofy person so don't be alarmed at what i put on this website.</p>
+  </div>
+  <div class="main">
+    <h2>Raya Corona 2021</h2>
+    <h5>May 13, 2021</h5>
+    <img src="Hari Raya 2021.jpg" alt="Hari Raya Corona 2021" style="padding : 20px; width : 100%; height : 600px;">
+    <p>We took this photo just cause and wore our Baju Melayu and Baju Kurung in order to get into the spirit of Hari Raya Aidiladha.It was fun,we had a lot of laughs and i just remember being together with my family</p>
+    <br>
+    <h2>Kemahiran Servis Rendah</h2>
+    <h5>Sep 2, 2017</h5>
+      <video width="500px" height="400" controls>
+        <source src="vid_badminton.mp4" type="video/mp4">
+        <source src="vid_badminton.ogg" type="video/ogg">
+      </video>
+    </video>
+    <p>This is just a video that was required of me for my grade in curriculum activities which was Badminton.<br>What i am showing is the proper way to accept someone's serve and how to perform a low serve.</p>
+    <br>
+    <h2>Bruschetta</h2>
+    <h5>June 26, 2021</h5>
+    <img src="Bruschetta.jpg" alt="Bruschetta" style="padding:20px; width:500px; height:400px;">
+    <p>This is my attempt at making bruschetta which is an italian appetiser usually served with bread.It primarily contains tomato and parsley with a dab of balsamic vinegar.I made about 50 of these bad boys.My whole family enjoyed.To the malaysians out there,I recommend you to make this and it is not that expensive to make.</p>
+    <br>
+
+   <h2>Javascript Buttons</h2>
+   <h5>July 15 2021</h5>
+   <button class="button button1" onclick="myFunction()">Green</button>
+   <button class="button button2" onclick="myFunction2()">Blue</button>
+   <button class="button button3" onclick="myFunction3()">Red</button>
+   <button class="button button4" onclick="myFunction4()">Gray</button>
+   <button class="button button5" onclick="myFunction5()">Black</button>
+   <br><br><br><br>
+   <p>This is an application of CSS buttons and HTML buttons as well as JavaScript to alert that you clicked something.</p>
+  </div>
+</div>
+
+
+
+<div class="footer">
+   <p>Follow me on </p>
+  <a href="https://www.instagram.com/hydragon012/">
+  <i class = "fa fa-instagram"></i>
+  </a>
+</div>
+
+</body>
+</html>

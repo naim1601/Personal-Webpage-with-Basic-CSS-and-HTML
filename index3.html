@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+<title>Learn About Naim</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+   
+}
+
+p{font-family: 'Times New Roman', Times, serif;}
+
+table,th,td{border: 1px solid black;}
+
+/* Style the header */
+.header {
+  padding: 20px;
+  text-align: center;
+  background: #f78706;
+  color: white;
+}
+
+/* Increase the font size of the h1 element */
+.header h1 {
+  font-size: 15px;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: rgb(0, 0, 0);
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Column container */
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  flex: 20%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* Main column */
+.main {   
+  flex: 80%;
+  background-color: white;
+  padding: 20px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  width: 100%;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width:100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Learn About Naim</h1>
+  <p>A website created by Muhammad Naim Bin Razman.</p>
+</div>
+
+<div class="navbar">
+  <a href="index.html" class="center">About me</a>
+  <a href="index3.html" class="center">Education</a>
+  <a href="index2.html" class="center">Skills</a>
+  <a href="index4.html" class="center">Contact</a>
+</div>
+
+<div class="row">
+  <div class="side">
+    <h2>Education</h2>
+    <table>
+      <th>Year</th>
+      <th>School</th>
+      <tr>
+      <td>2007</td> <td>SK Taman Melawati 2</td>
+      </tr>
+      <tr><td>2008-2013</td> <td>SK Saujana Utama</td>
+      </tr>
+      <tr>
+        <td>2014-2018</td><td>SMK Saujana Utama</td>
+      </tr>
+      <tr>
+        <td>2019-Now</td><td>Uitm Arau Perlis Branch</td>
+      </tr>
+    </table>
+  </div>
+  <div class="main">
+    <h2>SK TAMAN MELAWATI 2</h2>
+    <h5>PRIMARY SCHOOL,2007</h5>
+    <img src="SKTM22.jpg" alt="My Photo">
+    <p>I only attended this school for one year at standard one and I know it's short but my family and I moved to another place.</p>
+    <p>I was always playing in this school and not knowing what i was supposed to do in the first place but it was fun while it lasted.</p>
+    <br>
+    <br>
+    <br>
+    
+    <h2>SK Saujana Utama</h2>
+    <h5>PRIMARY SCHOOL,2008 - 2013</h5>
+    <img src="SKSU2.jpg" alt="SKSU">
+    <p>I attended this school from standard 2 to standard 6.I had good experience in this school.The teachers try hard for their students but they don't really focus the student who are at the last classes which is sad.I was able to do new things as they do different activities in the school.</p>
+    <br><br><br>
+    <h2>SMK Saujana Utama</h2>
+    <h5>SECONDARY SCHOOL,2014-2018</h5>
+    <img src="download.jfif" alt="SMKSU">
+    <p>I stayed at this school from form 1 to form 5.I made many friends and lost them through the years as i lost track of them when some of them went to boardin school.I was sad at first but i met them when they came back so it was not so bad.My PT3 and SPM result are not something that i am proud of either since i played so much but thankfully i got good enough results to get into my current university.</p>
+    <br><br><br>
+    <h2>UITM Arau Perlis Branch</h2>
+    <h5>UNIVERSITY,2019-Now</h5>
+    <img src="UiTM Perlis.png" alt="uitm">
+    <p>When i first started in this university,I was really nervous.I had never been actually alone in my life so i was anxious about everything as i was worried if can score here or not as well as if i could fit in here or not.<br><br>At First,I did not know where to buy my things,how to do laudry well and ironing your clothes.Back at home,I would always do things that did not involve laundry but i had to learn it sooner or later i guess.I was in the computer science diploma programme.I was able to excel in my first semester since it is something i am very interested.I had fun studying here but sadly the coronavirus came.I am about to do my last semester now,I feel a little sad as i cannot have a normal diploma student life as my previous alumni did.</p>
+    <br><br><br>
+    
+    
+</div>
+
+<div class="footer">
+  <p>Follow me on </p>
+ <a href="https://www.instagram.com/hydragon012/">
+ <i class = "fa fa-instagram"></i>
+ </a>
+</div>
+
+</body>
+</html>
